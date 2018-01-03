@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///Users/mdeleon/Desktop/braceface/tracy_and_colin_site/index.html -->
+<html class="no-js" lang="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="file:///Users/mdeleon/Desktop/braceface/tracy_and_colin_site/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="./public/css/main.css">
+    <script src="./public/js/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div id="header"><img id="header-img" src="./public/img/header.png" class="centered"></div>
+    <div id="names"><img id="names-img" src="./public/img/name.png" width="40%" class="centered"></div>
+    <div id="nav_bar" class="container-fluid">
+        <nav class="navbar-nav container-fluid">
+            <a href="index.html">Home</a> |
+            <a href="event.html">Event Details</a> |
+            <a href="wedding_party.html">The Wedding Party</a> |
+            <a href="registry.html">Registry</a> |
+            <a href="hotel.html">Hotels</a> |
+            <a href="rsvp.html">RSVP</a>
+        </nav>
+    </div>
+    <div id="hotel" class="container-fluid padded">
+        <div id="map" class="col-md-4 col-md-offset-2 padded"></div>
+        <div id="hotel_info" class="col-md-4 hotel-text">
+            <p>
+                Hotel block is at:
+                <br>
+                <a href="http://www.marriott.com/hotels/travel/oaklm-courtyard-livermore/" target="_blank"><b>Courtyard by Mariott, Livermore</b></a> <br />(about 7 miles from the venue)
+            <br><b>2929 Constitution Dr, Livermore, CA 94551</b>
+            </p>
+            There will be a shuttle to and from the hotel and venue
+            <p> We have a block for both Friday and Saturday night (guests can also book just 1 night if they like)
+            </p>
+            <b>Ng-Ikeda Wedding</b>
+            <br> Start date: 7/21/17 | End date: 7/23/17
+            <br> Last day to book: 6/25/17
+            <br> Special group rate: $139.00 USD per night
+            <br><a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Ng-Ikeda%20Wedding%5Eoaklm%60NGINGIA%7CNGINGIB%60139.00%60USD%60false%604%607/21/17%607/23/17%606/25/17&app=resvlink&stop_mobi=yes">LINK TO BOOK </a></b>
+            </p>
+        </div>
+        <script>
+        window.jQuery || document.write('<script src="./public/js/vendor/jquery-1.12.0.min.js"><\/script>')
+        </script>
+        <script src="./public/js/plugins.js"></script>
+        <script src="./public/js/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+        function initMap() {
+            var uluru = {
+                lat: 37.7034115,
+                lng: -121.8171119
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZcCKbsnSR2oaYlGnIy-MbCAkdMk59wLM&callback=initMap" async defer>
+        </script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <div id="footer"><img id="footer-img" src="./public/img/footer.png" class="centered padded"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+*{ font-family: Calibri, sans-serif !important;
+}
+
+/* mobile tweaks */
+
+@media screen and (min-width: 480px) {
+    #clockdiv {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #header-img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #footer-img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #clockdiv {
+        font-size: default;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header-img {
+        width: 100%;
+        min-height: 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #footer-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #names {
+        height: 10vh;
+        background-image: url("../img/name.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 480px) {
+    #names-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #story {
+        height: 10vh;
+        background-image: url("../img/our_story.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #story-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #collage {
+        height: 22vh;
+        background-image: url("../img/tracy_collage.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #collage-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #join-us {
+        height: 20vh;
+        background-image: url("../img/join_us.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #join-us-img {
+        display: none;
+    }
+}
+
+body {
+    background-color: #e1e1e1 !important;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
+}
+
+.navbar-nav {
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    float: none!important;
+    > li {
+        float: none;
+        display: inline-block;
+    }
+}
+
+.event-text {
+    font-size: 20px !important;
+}
+.hotel-text{
+    font-size: 20px;
+    text-align: justify;
+}
+.registry-text{
+    font-size: 20px;
+    text-align: center;
+}
+.hotel-text a:link {
+    color: #6cb8bd !important;
+}
+.hotel-text a:visited {
+    color: #ef938a !important;
+}
+
+a:link {
+    color: #36454f !important;
+}
+
+a:hover {
+    color: #ef938a !important;
+}
+
+a:visited {
+    color: #36454f !important;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+
+body {
+    text-align: center;
+    font-weight: 100;
+}
+
+h1 {
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+
+#clockdiv {
+    font-family: calibri, sans-serif;
+    color: black;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+}
+
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 4px;
+    background: #6cb8bd;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 15px;
+    border-radius: 4px;
+    background: #e1e1e1;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.padded {
+    padding-top: 15px;
+}
+
+#map {
+    height: 400px;
+    background-color: #ccffff;
+    display: block;
+}
+#moreinfo{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#wedding_party p{
+    font-size: 18px;
+    text-align: justify;
+}
+#wedding_party h2{
+    text-align: justify;
+}
+.padded-pic {
+    padding-top: 20px;
+}
+.padded-top {
+    padding-top: 10px;
+}
+#welcome_message p{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+#our_story p{
+    font-size: 20px;
+}
